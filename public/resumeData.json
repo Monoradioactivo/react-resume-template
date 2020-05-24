@@ -1,163 +1,215 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "name": "Adrián Moreno",
+    "occupation": "Software Developer",
+    "description": "Result-oriented software developer professional with expertise in building enterprise applications. An excellent team player with a positive attitude.",
+    "image": "eladrianbienperrisimo.png",
+    "bio": "I was born in 1994. I live in Morelia, Michoacán, México. I've been a professional developer for more than 4 years. I've mostly worked professionally with Java, PHP and Python. I like building new stuff and work with other people",
+    "email": "i13120427@gmail.com",
+    "phone": "+52 1 443-222-0019",
+    "address": {
+      "city": "Morelia",
+      "state": "Michoacán"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "https://simio.mx",
+    "resumedownload": "https://drive.google.com/file/d/1cNf2hVFn-zEI81EkO-2E8B3X_ovtdL7k/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/aamc3qwryx0/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "name": "github",
+        "url": "http://github.com/monoradioactivo",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Instituto Tecnológico de Morelia",
+        "degree": "Information Technology Engineer",
+        "graduated": "March 2018",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Cinépolis",
+        "title": "Java Full Stack Developer ",
+        "years": "June 2019 - Present",
+        "description": "Spring MVC application support, fixes and new features. Creation of a Kitchen Delivery System from scratch.",
+        "website": "https://cinepolis.com",
+        "technologies": "Java 8, Spring MVC, Spring Boot, jUnit 5, MongoDB, SonarQube, Redis, Apache Kafka, Docker, AWS (ElasticBeanstalk and S3), React, Jira, Bitbucket"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Grupo Tres Marías",
+        "title": "Java Developer",
+        "years": "May 2018 - May 2019",
+        "description": "ERP application support, new features and fixes.\nCreation of online payments REST API and implementation",
+        "website": "https://www.tresmarias.com.mx",
+        "technologies": "Java 6 and 8, Spring Boot, MySQL, jQuery, Git, Jira, AWS (Elastic Beanstalk, S3, CodeCommit)"
+      },
+      {
+        "company": "CredixGS",
+        "title": "PHP Developer",
+        "years": "June 2016 - May 2018",
+        "description": "Application support and fixes. Creation of new web application from scratch, develop and support.",
+        "technologies": "PHP, MySQL, jQuery, REST Services, Git",
+        "website": "https://credix.com.mx"
       }
     ],
-    "skills":[
+    "jobs": [
       {
-        "name":"Git",
-        "level":"60%"
+        "name": "Cinépolis",
+        "technologies": [
+          {
+            "name": "Java",
+            "image": "java.png"
+          },
+          {
+            "name": "Spring MVC",
+            "image": "spring.svg"
+          },
+          {
+            "name": "Spring Boot",
+            "image": "spring-boot.png"
+          },
+          {
+            "name": "Git",
+            "image": "git.jpg"
+          },
+          {
+            "name": "jUnit 5",
+            "image": "junit5.png"
+          },
+          {
+            "name": "MongoDB",
+            "image": "mongodb.png"
+          },
+          {
+            "name": "Redis",
+            "image": "redis.png"
+          },
+          {
+            "name": "Apache Kafka",
+            "image": "kafka.png"
+          },
+          {
+            "name": "React",
+            "image": "react.svg"
+          },
+          {
+            "name": "Docker",
+            "image": "docker.png"
+          },
+          {
+            "name": "AWS Elastic Beanstalk",
+            "image": "elastic_beanstalk.png"
+          },
+          {
+            "name": "AWS S3",
+            "image": "s3.jpg"
+          },
+          {
+            "name": "Jira",
+            "image": "jira.png"
+          },
+          {
+            "name": "Bitbucket",
+            "image": "bitcuket.jpg"
+          }
+        ]
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name": "Grupo Tres Marías",
+        "technologies": [
+          {
+            "name": "Java",
+            "image": "java.png"
+          },
+          {
+            "name": "Spring Boot",
+            "image": "spring-boot.png"
+          },
+          {
+            "name": "MySQL",
+            "image": "mysql.svg"
+          },
+          {
+            "name": "Git",
+            "image": "git.jpg"
+          },
+          {
+            "name": "jQuery",
+            "image": "jquery.png"
+          },
+          {
+            "name": "Jira",
+            "image": "jira.png"
+          },
+          {
+            "name": "AWS Elastic Beanstalk",
+            "image": "elastic_beanstalk.png"
+          },
+          {
+            "name": "AWS S3",
+            "image": "s3.jpg"
+          },
+          {
+            "name": "AWS CodeCommit",
+            "image": "codecommit.png"
+          }
+        ]
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name": "CredixGS",
+        "technologies": [
+          {
+            "name": "PHP",
+            "image": "php.png"
+          },
+          {
+            "name": "jQuery",
+            "image": "jquery.png"
+          },
+          {
+            "name": "Git",
+            "image": "git.jpg"
+          }
+        ]
       }
-    ]
-  },
-  "portfolio":{
-    "projects": [
+    ],
+    "skills": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "name": "Git",
+        "level": "60%"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "name": "Illustrator",
+        "level": "55%"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "name": "CSS",
+        "level": "90%"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "name": "HTML5",
+        "level": "80%"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
       }
     ]
   }
