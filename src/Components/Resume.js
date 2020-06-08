@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 class Resume extends Component {
+
     render() {
 
         if (this.props.data) {
@@ -20,36 +21,6 @@ class Resume extends Component {
                         {work.technologies}
                     </p>
                 </div>
-            });
-
-            /*var jobs = this.props.data.jobs.map(job => {
-                var jobTitle = job.name;
-                var techs = [];
-                var images = [];
-                job.technologies.forEach(technology => {
-                    techs.push(technology.name);
-                    images.push(technology.image);
-                });
-                return <p key={jobTitle}>
-                    <b>{jobTitle}</b>
-                    <br/>
-                    Tech: {techs} Image: {images}
-                </p>
-            });*/
-            var jobs = this.props.data.jobs.map(job => {
-                var jobName = job.name;
-
-                console.log('--------Company');
-                console.log(job.name);
-                console.log('--------Technologies');
-                var technologyName = (job.technologies.map(technology => {
-                    return technology.name
-                }));
-                var technologyImage = (job.technologies.map(technology => {
-                    return technology.image
-                }));
-                console.log(job.technologies.forEach())
-                console.log('----------------------');
             });
         }
 
@@ -76,14 +47,77 @@ class Resume extends Component {
                     </div>
                 </div>
 
-                <div className="row skill">
+                <div className="row work">
                     <div className="three columns header-col">
                         <h1><span>My Stack By Job</span></h1>
                     </div>
                     <div className="nine columns main-col">
-
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <div>
+                                    <h3>Cinépolis</h3>
+                                    <img src="images/technologies/java.png" width="64" height="64" alt="Java"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/spring.svg" width="64" height="64" alt="Spring"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/spring-boot.png" alt="Spring Boot" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/git.png" alt="Git" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/junit5.png" alt="jUnit 5" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/mongodb.png" alt="MongoDB" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/redis.png" alt="Redis" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/kafka.png" alt="Apache Kafka" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/react.svg" alt="ReactJs" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/docker.png" alt="Docker" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/elastic_beanstalk.png" alt="ELB" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/s3.jpg" alt="S3" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/jira.png" alt="Jira" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/bitbucket.jpg" alt="Bitbucket" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                </div>
+                                <div>
+                                    <h3>Grupo Tres Marías</h3>
+                                    <img src="images/technologies/java.png" width="64" height="64" alt="Java"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/spring-boot.png" alt="Spring Boot" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/mysql.svg" alt="Git" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/git.png" alt="jUnit 5" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/jquery.png" alt="jUnit 5" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/jira.png" alt="jUnit 5" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/elastic_beanstalk.png" alt="ELB" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/codecommit.png" alt="ELB" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                </div>
+                                <div>
+                                    <h3>CredixGS</h3>
+                                    <img src="images/technologies/php.png" width="64" height="64" alt="Java"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/jquery.png" alt="Spring Boot" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                    <img src="images/technologies/git.png" alt="Git" width="64" height="64"/>
+                                    <span>&nbsp;</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </section>
         );
     }
